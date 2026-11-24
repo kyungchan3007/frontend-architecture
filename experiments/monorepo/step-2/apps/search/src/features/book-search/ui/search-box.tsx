@@ -26,10 +26,10 @@ export function SearchBox() {
   const urlQ = searchParams.get("q") ?? "";
 
   const [value, setValue] = useState(urlQ);
-  const [prevUrlQ, setPrevUrlQ] = useState(urlQ); // 지난 렌더링의 주소 검색어 (주소가 바뀌었는지 알아보려고)
+  const [prevParams, setPrevParams] = useState(searchParams); // 지난 렌더링의 주소 (이동이 일어났는지 알아보려고)
   const [pushedQ, setPushedQ] = useState(urlQ); // 입력해서 내가 마지막으로 주소에 넣은 값
-  if (urlQ !== prevUrlQ) {
-    setPrevUrlQ(urlQ);
+  if (searchParams !== prevParams) {
+    setPrevParams(searchParams);
     if (urlQ !== pushedQ) {
       // 바깥에서 바뀐 주소 (메뉴 클릭 · 뒤로 가기)
       setPushedQ(urlQ);
@@ -58,6 +58,10 @@ export function SearchBox() {
           setValue(e.target.value);
           handleSearch(e.target.value);
         }}
+        // 입력하고 0.3초 안에 메뉴를 누르면, 메뉴 이동 뒤에 남아 있던 검색 예약이 실행돼 메뉴가 무시됐다 (#86 ④-2)
+        // 메뉴를 누르면 브라우저가 먼저 입력창 포커스를 빼므로, 그때 예약을 바로 실행해 둔다 (use-debounce flush)
+        // → 검색 → 메뉴 이동 순서가 되고, 메뉴 이동은 바깥에서 바뀐 주소라 입력창도 비워진다 (④-1)
+        onBlur={() => handleSearch.flush()}
         placeholder="제목으로 검색"
       />
       {atLimit && (
