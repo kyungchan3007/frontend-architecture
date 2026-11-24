@@ -9,6 +9,8 @@
 - 1은 문서 예제처럼 고치지 않고 지운다. 쓰는 곳이 없기 때문 (확인됨)
 - /api/books/[bookId]는 상세 화면이 아직 브라우저에서 부르므로 그대로 둔다 (확인됨)
 - 2~4의 근거 문서는 각 단계 시작할 때 찾고, 고칠 방향은 문서에 맞춰 바꿀 수 있다 (확인됨)
+- ②는 현업처럼 세 곳에서 막는다: ②-1 입력창 maxLength 1000 + 안내, ②-2 Next 서버, ②-3 백엔드 (확인됨)
+- ②-2: 1000자를 넘으면 자르지 않고 검색하지 않음, 토스트 + 돌아가기 버튼(/) (확인됨: 검색 안 하고 토스트, 돌아가기 버튼)
 - 커밋은 단계마다 내용을 먼저 보여 주고 확인받은 뒤에만 (확인됨)
 - next dev · next build가 tsconfig에 넣는 줄은 이번 변경이 아니라 되돌린다 (가정)
 
@@ -16,6 +18,8 @@
 - experiments/monorepo/step-2/apps/search/app/**
 - experiments/monorepo/step-2/apps/search/src/_pages/**
 - experiments/monorepo/step-2/apps/search/src/features/book-search/**
+- experiments/monorepo/step-2/apps/search/src/shared/ui/toast/**
+- experiments/monorepo/step-2/apps/backend/src/server.mjs
 - .agents/specs/0059-search-gap-fixes/**
 
 ## 계획 밖 변경 이유
