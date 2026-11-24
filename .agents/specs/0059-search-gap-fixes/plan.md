@@ -11,6 +11,7 @@
 - 2~4의 근거 문서는 각 단계 시작할 때 찾고, 고칠 방향은 문서에 맞춰 바꿀 수 있다 (확인됨)
 - ②는 현업처럼 세 곳에서 막는다: ②-1 입력창 maxLength 1000 + 안내, ②-2 Next 서버, ②-3 백엔드 (확인됨)
 - ②-2: 1000자를 넘으면 자르지 않고 검색하지 않음, 토스트 + 돌아가기 버튼(/) (확인됨: 검색 안 하고 토스트, 돌아가기 버튼)
+- ②-3: 백엔드는 1000자를 넘으면 400 + 메시지, 명세(search.yaml)에도 maxLength 1000 · 400 응답을 적고 생성 코드를 다시 만든다 (확인됨: 400, 명세도)
 - 커밋은 단계마다 내용을 먼저 보여 주고 확인받은 뒤에만 (확인됨)
 - next dev · next build가 tsconfig에 넣는 줄은 이번 변경이 아니라 되돌린다 (가정)
 
@@ -20,6 +21,8 @@
 - experiments/monorepo/step-2/apps/search/src/features/book-search/**
 - experiments/monorepo/step-2/apps/search/src/shared/ui/toast/**
 - experiments/monorepo/step-2/apps/backend/src/server.mjs
+- experiments/monorepo/step-2/apps/search/openapi/search.yaml
+- experiments/monorepo/step-2/apps/search/src/generated/api/**
 - .agents/specs/0059-search-gap-fixes/**
 
 ## 계획 밖 변경 이유

@@ -12,8 +12,10 @@ paths:
         - name: q
           in: query
           required: true
+          # 검색어는 1000자까지. 입력창 · Next 서버 · 백엔드가 같은 값으로 막는다 (#86 ②)
           schema:
             type: string
+            maxLength: 1000
         - name: category
           in: query
           required: false
@@ -26,6 +28,12 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/SearchResult"
+        "400":
+          description: 검색어가 잘못됨 (1000자 초과)
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorMessage"
 components:
   schemas:
     SearchResult:
@@ -38,3 +46,9 @@ components:
           type: array
           items:
             $ref: "../../../packages/api/openapi/common.yaml#/components/schemas/Book"
+    ErrorMessage:
+      type: object
+      required: [message]
+      properties:
+        message:
+          type: string
