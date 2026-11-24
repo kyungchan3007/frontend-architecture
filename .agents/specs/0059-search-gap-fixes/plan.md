@@ -27,6 +27,7 @@
 - .agents/specs/0059-search-gap-fixes/**
 
 ## 계획 밖 변경 이유
+- experiments/monorepo/step-2/apps/search/src/entities/book-search/** — ③-2에서 백엔드 400(예상한 오류)을 던지지 않고 값으로 돌려주려면 검색 서비스 함수와 반환 타입을 바꿔야 했다
 
 ## 완료 기준
 - [ ] bash .agents/checks.sh PASS
