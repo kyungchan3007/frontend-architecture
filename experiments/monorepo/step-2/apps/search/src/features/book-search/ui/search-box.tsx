@@ -12,28 +12,50 @@ import { MAX_QUERY_LENGTH } from "../model/query";
 // 한글은 자모를 누를 때마다 입력이 일어나서, 없을 때는 "리엑트"에 백엔드 요청이 8번 나갔다
 // 검색어는 1000자까지. 첫 장치로 입력창에서 막고, 끝까지 차면 아래에 안내한다 (#86 ②-1)
 // (MDN maxlength: 브라우저가 그 이상 입력되지 않게 막는다. 현업도 붙여 넣으면 1000자까지만 들어가고 안내를 보여 줬다)
+//
+// 입력창 값을 주소와 맞추기 (#86 ④-1)
+// - defaultValue는 처음 값만 정해서, 입력한 뒤 메뉴 클릭 · 뒤로 가기로 주소가 바뀌어도 글자가 남았다 (React <input> "defaultValue")
+// - key={q}로 새로 만들면 입력하다 멈출 때마다(300ms) 입력창이 새로 만들어져 포커스가 빠지고 이어 친 글자가 사라졌다
+// - 그래서 입력창 값을 state로 두고(제어 컴포넌트), 주소의 검색어가 "내가 마지막으로 넣은 값"과 다를 때만 맞춘다
+//   (React "Adjusting some state when a prop changes": 이전 값을 state에 두고 렌더링 중에 비교)
+//   입력해서 바뀐 주소는 내가 넣은 값과 같으니 건드리지 않고, 메뉴 · 뒤로 가기처럼 바깥에서 바뀐 경우만 맞춘다
 export function SearchBox() {
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const { replace } = useRouter();
-  const [atLimit, setAtLimit] = useState(false);
+  const urlQ = searchParams.get("q") ?? "";
+
+  const [value, setValue] = useState(urlQ);
+  const [prevUrlQ, setPrevUrlQ] = useState(urlQ); // 지난 렌더링의 주소 검색어 (주소가 바뀌었는지 알아보려고)
+  const [pushedQ, setPushedQ] = useState(urlQ); // 입력해서 내가 마지막으로 주소에 넣은 값
+  if (urlQ !== prevUrlQ) {
+    setPrevUrlQ(urlQ);
+    if (urlQ !== pushedQ) {
+      // 바깥에서 바뀐 주소 (메뉴 클릭 · 뒤로 가기)
+      setPushedQ(urlQ);
+      setValue(urlQ);
+    }
+  }
 
   const handleSearch = useDebouncedCallback((term: string) => {
+    setPushedQ(term);
     const params = new URLSearchParams(searchParams);
     if (term) params.set("q", term);
     else params.delete("q");
     replace(params.size ? `${pathname}?${params.toString()}` : pathname);
   }, 300);
 
+  const atLimit = value.length >= MAX_QUERY_LENGTH;
+
   return (
     <>
       <input
         aria-label="검색어"
         aria-describedby={atLimit ? "search-limit" : undefined}
-        defaultValue={searchParams.get("q") ?? ""}
+        value={value}
         maxLength={MAX_QUERY_LENGTH}
         onChange={(e) => {
-          setAtLimit(e.target.value.length >= MAX_QUERY_LENGTH);
+          setValue(e.target.value);
           handleSearch(e.target.value);
         }}
         placeholder="제목으로 검색"
