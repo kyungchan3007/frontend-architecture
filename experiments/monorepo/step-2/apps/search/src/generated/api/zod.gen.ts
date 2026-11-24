@@ -2,6 +2,10 @@
 
 import * as z from 'zod';
 
+export const zErrorMessage = z.object({
+    message: z.string()
+});
+
 export const zBook = z.object({
     id: z.string(),
     title: z.string(),
@@ -15,7 +19,7 @@ export const zSearchResult = z.object({
 });
 
 export const zSearchBooksQuery = z.object({
-    q: z.string(),
+    q: z.string().max(1000),
     category: z.string().optional()
 });
 

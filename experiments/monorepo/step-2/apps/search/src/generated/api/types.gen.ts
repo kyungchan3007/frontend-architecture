@@ -9,6 +9,10 @@ export type SearchResult = {
     items: Array<Book>;
 };
 
+export type ErrorMessage = {
+    message: string;
+};
+
 export type Book = {
     id: string;
     title: string;
@@ -25,6 +29,15 @@ export type SearchBooksData = {
     };
     url: '/search';
 };
+
+export type SearchBooksErrors = {
+    /**
+     * 검색어가 잘못됨 (1000자 초과)
+     */
+    400: ErrorMessage;
+};
+
+export type SearchBooksError = SearchBooksErrors[keyof SearchBooksErrors];
 
 export type SearchBooksResponses = {
     /**
