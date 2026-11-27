@@ -1,0 +1,301 @@
+{
+ "summary": {
+  "hit_at_20": 19,
+  "total": 30,
+  "rate": 0.6333333333333333,
+  "by_kind": {
+   "exact": {
+    "hit": 10,
+    "total": 10
+   },
+   "no_space": {
+    "hit": 0,
+    "total": 6
+   },
+   "partial": {
+    "hit": 5,
+    "total": 6
+   },
+   "author": {
+    "hit": 4,
+    "total": 4
+   },
+   "chosung": {
+    "hit": 0,
+    "total": 4
+   }
+  }
+ },
+ "rows": [
+  {
+   "kind": "exact",
+   "query": "꾸뻬 씨의 시간 여행",
+   "expected_id": "KMO201332996",
+   "title": "꾸뻬 씨의 시간 여행",
+   "status": 200,
+   "hit": true,
+   "rank": 1
+  },
+  {
+   "kind": "exact",
+   "query": "뱀파이어 아카데미",
+   "expected_id": "KMO201001070",
+   "title": "뱀파이어 아카데미",
+   "status": 200,
+   "hit": true,
+   "rank": 1
+  },
+  {
+   "kind": "exact",
+   "query": "오리지널 마인드",
+   "expected_id": "KMO201824661",
+   "title": "오리지널 마인드",
+   "status": 200,
+   "hit": true,
+   "rank": 1
+  },
+  {
+   "kind": "exact",
+   "query": "기질과 가정생활",
+   "expected_id": "KMO200400192",
+   "title": "기질과 가정생활",
+   "status": 200,
+   "hit": true,
+   "rank": 1
+  },
+  {
+   "kind": "exact",
+   "query": "사는 맛 사는 멋",
+   "expected_id": "KMO201123730",
+   "title": "사는 맛 사는 멋",
+   "status": 200,
+   "hit": true,
+   "rank": 1
+  },
+  {
+   "kind": "exact",
+   "query": "무지개 곶의 찻집",
+   "expected_id": "KMO201223375",
+   "title": "무지개 곶의 찻집",
+   "status": 200,
+   "hit": true,
+   "rank": 1
+  },
+  {
+   "kind": "exact",
+   "query": "예술이 사랑한 사진",
+   "expected_id": "KMO201211979",
+   "title": "예술이 사랑한 사진",
+   "status": 200,
+   "hit": true,
+   "rank": 1
+  },
+  {
+   "kind": "exact",
+   "query": "한국근대도시주택",
+   "expected_id": "KMO200323283",
+   "title": "한국근대도시주택",
+   "status": 200,
+   "hit": true,
+   "rank": 1
+  },
+  {
+   "kind": "exact",
+   "query": "신앙의 중간지대란 없다",
+   "expected_id": "KMO199300087",
+   "title": "신앙의 중간지대란 없다",
+   "status": 200,
+   "hit": true,
+   "rank": 1
+  },
+  {
+   "kind": "exact",
+   "query": "나도 아들 역할은 처음이에요",
+   "expected_id": "KMO202229289",
+   "title": "나도 아들 역할은 처음이에요",
+   "status": 200,
+   "hit": true,
+   "rank": 1
+  },
+  {
+   "kind": "no_space",
+   "query": "죽은돈과산돈",
+   "expected_id": "KJU202009411",
+   "title": "죽은 돈과 산 돈",
+   "status": 200,
+   "hit": false,
+   "rank": null
+  },
+  {
+   "kind": "no_space",
+   "query": "손뜨개워크숍니트러브블렌드",
+   "expected_id": "KMO201505785",
+   "title": "손뜨개 워크숍 니트러브 블렌드",
+   "status": 200,
+   "hit": false,
+   "rank": null
+  },
+  {
+   "kind": "no_space",
+   "query": "슈퍼아이돌오두리",
+   "expected_id": "KJU201311746",
+   "title": "슈퍼 아이돌 오두리",
+   "status": 200,
+   "hit": false,
+   "rank": null
+  },
+  {
+   "kind": "no_space",
+   "query": "텍스타일프린팅실기",
+   "expected_id": "KMO200300695",
+   "title": "텍스타일프린팅 실기",
+   "status": 200,
+   "hit": false,
+   "rank": null
+  },
+  {
+   "kind": "no_space",
+   "query": "님떠난선학산",
+   "expected_id": "KMO202556115",
+   "title": "님 떠난 선학산",
+   "status": 200,
+   "hit": false,
+   "rank": null
+  },
+  {
+   "kind": "no_space",
+   "query": "감정이입가르치기",
+   "expected_id": "KMO202206098",
+   "title": "감정이입 가르치기",
+   "status": 200,
+   "hit": false,
+   "rank": null
+  },
+  {
+   "kind": "partial",
+   "query": "포토저널리즘의",
+   "expected_id": "KMO200109635",
+   "title": "포토저널리즘의 이해",
+   "status": 200,
+   "hit": true,
+   "rank": 1
+  },
+  {
+   "kind": "partial",
+   "query": "어린이",
+   "expected_id": "KJU202602841",
+   "title": "어린이 삼국지",
+   "status": 200,
+   "hit": false,
+   "rank": null
+  },
+  {
+   "kind": "partial",
+   "query": "신데렐라가",
+   "expected_id": "KJU200501215",
+   "title": "신데렐라가 된 강아지",
+   "status": 200,
+   "hit": true,
+   "rank": 2
+  },
+  {
+   "kind": "partial",
+   "query": "평화와",
+   "expected_id": "KMO201042881",
+   "title": "평화와 미래",
+   "status": 200,
+   "hit": true,
+   "rank": 5
+  },
+  {
+   "kind": "partial",
+   "query": "말씀목회",
+   "expected_id": "KMO200414049",
+   "title": "전략 기획적 설교와 말씀목회",
+   "status": 200,
+   "hit": true,
+   "rank": 2
+  },
+  {
+   "kind": "partial",
+   "query": "건강사회",
+   "expected_id": "KMO202615393",
+   "title": "약탈적 건강사회",
+   "status": 200,
+   "hit": true,
+   "rank": 5
+  },
+  {
+   "kind": "author",
+   "query": "꼬망",
+   "expected_id": "KMO202607126",
+   "title": "터지기 쉬운 김밥일지라도",
+   "status": 200,
+   "hit": true,
+   "rank": 5
+  },
+  {
+   "kind": "author",
+   "query": "장요셉",
+   "expected_id": "KMO201927464",
+   "title": "생명의 열쇠",
+   "status": 200,
+   "hit": true,
+   "rank": 5
+  },
+  {
+   "kind": "author",
+   "query": "현창국",
+   "expected_id": "KMO200018947",
+   "title": "제주다워야 제주가 산다",
+   "status": 200,
+   "hit": true,
+   "rank": 1
+  },
+  {
+   "kind": "author",
+   "query": "권원기",
+   "expected_id": "KMO200134571",
+   "title": "사랑할 때 이혼을 준비하라",
+   "status": 200,
+   "hit": true,
+   "rank": 5
+  },
+  {
+   "kind": "chosung",
+   "query": "ㅇㅇㅇㅇㅁ",
+   "expected_id": "KJU200200969",
+   "title": "여우의 양말",
+   "status": 200,
+   "hit": false,
+   "rank": null
+  },
+  {
+   "kind": "chosung",
+   "query": "ㄴㄴㅂㄴㅎㄷ",
+   "expected_id": "KMO201237885",
+   "title": "나는 분노한다",
+   "status": 200,
+   "hit": false,
+   "rank": null
+  },
+  {
+   "kind": "chosung",
+   "query": "ㄱㅅㄱㅎㅂㅁㅇㄱ",
+   "expected_id": "KMO202159811",
+   "title": "교사가 학부모에게",
+   "status": 200,
+   "hit": false,
+   "rank": null
+  },
+  {
+   "kind": "chosung",
+   "query": "ㅅㄱㅈㅇㅅㅇㅇㅎㅈㄱㄱㄹ",
+   "expected_id": "KMO200511929",
+   "title": "성공적인 삶을 위한 자기관리",
+   "status": 200,
+   "hit": false,
+   "rank": null
+  }
+ ]
+}

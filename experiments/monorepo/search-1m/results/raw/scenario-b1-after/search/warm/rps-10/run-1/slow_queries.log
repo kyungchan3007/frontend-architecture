@@ -1,0 +1,57 @@
+db-1  | 2026-11-04 14:16:22.775 UTC [1065] LOG:  duration: 16650.694 ms  statement: ANALYZE books;
+db-1  | 2026-11-04 14:16:23.977 UTC [1065] LOG:  duration: 1202.447 ms  statement: ANALYZE authors;
+db-1  | 2026-11-04 14:17:08.707 UTC [2483] LOG:  duration: 571.688 ms  execute <unnamed>: SELECT COUNT(*) FROM books b WHERE b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 14:17:09.207 UTC [2492] LOG:  duration: 318.253 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:17:10.923 UTC [2550] LOG:  duration: 383.611 ms  statement: SELECT id FROM books b WHERE NOT EXISTS (SELECT 1 FROM book_authors WHERE book_id=b.id) ORDER BY popularity DESC LIMIT 1
+db-1  | 2026-11-04 14:17:14.649 UTC [2483] LOG:  duration: 4400.804 ms  execute <unnamed>: SELECT COUNT(*) FROM books b WHERE position(lower($1) in lower(b.title)) > 0 OR EXISTS (
+db-1  | 2026-11-04 14:17:18.483 UTC [2483] LOG:  duration: 3821.531 ms  execute <unnamed>: SELECT COUNT(*) FROM books b WHERE position(lower($1) in lower(b.title)) > 0 OR EXISTS (
+db-1  | 2026-11-04 14:17:22.496 UTC [2483] LOG:  duration: 3983.619 ms  execute <unnamed>: SELECT COUNT(*) FROM books b WHERE position(lower($1) in lower(b.title)) > 0 OR EXISTS (
+db-1  | 2026-11-04 14:17:26.472 UTC [2483] LOG:  duration: 3937.299 ms  execute <unnamed>: SELECT COUNT(*) FROM books b WHERE position(lower($1) in lower(b.title)) > 0 OR EXISTS (
+db-1  | 2026-11-04 14:17:30.486 UTC [2483] LOG:  duration: 3981.770 ms  execute <unnamed>: SELECT COUNT(*) FROM books b WHERE position(lower($1) in lower(b.title)) > 0 OR EXISTS (
+db-1  | 2026-11-04 14:17:30.778 UTC [2492] LOG:  duration: 289.669 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 14:17:31.115 UTC [2492] LOG:  duration: 281.051 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 14:17:31.788 UTC [2483] LOG:  duration: 260.690 ms  statement: SELECT id FROM books b WHERE NOT EXISTS (SELECT 1 FROM book_authors WHERE book_id=b.id) ORDER BY popularity DESC LIMIT 1
+db-1  | 2026-11-04 14:17:32.225 UTC [2483] LOG:  duration: 430.890 ms  statement: SELECT book_id, count(*) c FROM reviews GROUP BY book_id ORDER BY c DESC LIMIT 1
+db-1  | 2026-11-04 14:18:06.733 UTC [129] LOG:  duration: 324.122 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:18:07.304 UTC [129] LOG:  duration: 570.384 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:18:59.926 UTC [64] LOG:  duration: 381.278 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:00.670 UTC [64] LOG:  duration: 743.222 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:05.205 UTC [64] LOG:  duration: 367.044 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:05.679 UTC [96] LOG:  duration: 392.534 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:05.775 UTC [65] LOG:  duration: 400.472 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:06.086 UTC [214] LOG:  duration: 405.262 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:06.214 UTC [216] LOG:  duration: 325.948 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:06.533 UTC [64] LOG:  duration: 1326.832 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:09.864 UTC [64] LOG:  duration: 324.015 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:10.590 UTC [64] LOG:  duration: 724.977 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:15.207 UTC [64] LOG:  duration: 366.703 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:15.683 UTC [65] LOG:  duration: 214.690 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:15.775 UTC [216] LOG:  duration: 488.621 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:15.887 UTC [214] LOG:  duration: 508.013 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:16.466 UTC [214] LOG:  duration: 384.640 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:16.476 UTC [65] LOG:  duration: 791.362 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:16.572 UTC [434] LOG:  duration: 602.677 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:16.867 UTC [96] LOG:  duration: 401.491 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:16.869 UTC [65] LOG:  duration: 289.570 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:17.033 UTC [64] LOG:  duration: 1824.650 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:21.480 UTC [64] LOG:  duration: 211.676 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:21.492 UTC [434] LOG:  duration: 535.032 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:21.589 UTC [65] LOG:  duration: 212.838 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:21.695 UTC [96] LOG:  duration: 206.780 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:27.488 UTC [96] LOG:  duration: 403.631 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:27.883 UTC [434] LOG:  duration: 693.674 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:27.984 UTC [96] LOG:  duration: 404.660 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:28.181 UTC [65] LOG:  duration: 1100.407 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:28.273 UTC [64] LOG:  duration: 881.636 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:28.282 UTC [687] LOG:  duration: 308.214 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:28.304 UTC [680] LOG:  duration: 721.671 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:38.007 UTC [687] LOG:  duration: 217.773 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:57.407 UTC [680] LOG:  duration: 229.931 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:59.248 UTC [680] LOG:  duration: 397.420 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:19:59.702 UTC [680] LOG:  duration: 452.520 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:20:01.507 UTC [687] LOG:  duration: 229.505 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:20:01.514 UTC [680] LOG:  duration: 375.586 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:20:01.792 UTC [687] LOG:  duration: 219.113 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:20:02.114 UTC [680] LOG:  duration: 599.862 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:20:06.291 UTC [687] LOG:  duration: 211.963 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:20:06.329 UTC [1243] LOG:  duration: 582.091 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]

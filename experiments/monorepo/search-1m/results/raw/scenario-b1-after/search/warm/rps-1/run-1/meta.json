@@ -1,0 +1,14 @@
+{
+ "at": "2026-11-04T14:18:51.030Z",
+ "bench_sha256": "c9107b0200bcd15b684eb4568d0c5f256d79930d9890a4c3987769ae367beb80",
+ "commit": "db39ade85a726cc353869e291da9bd41d105bb02",
+ "host_load_1m": 2.26708984375,
+ "target": "search",
+ "rate": 1,
+ "rep": 1,
+ "cache": "warm",
+ "warmup": "10s",
+ "duration": "60s",
+ "baseUrl": "http://web:3000",
+ "bench_lock": "c9107b0200bcd15b684eb4568d0c5f256d79930d9890a4c3987769ae367beb80"
+}
