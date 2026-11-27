@@ -1,0 +1,288 @@
+db-1  | 2026-11-04 13:51:34.026 UTC [64] LOG:  duration: 331.480 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:34.177 UTC [99] LOG:  duration: 307.697 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:34.663 UTC [64] LOG:  duration: 309.664 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:34.839 UTC [99] LOG:  duration: 359.633 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:35.263 UTC [99] LOG:  duration: 311.165 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:35.308 UTC [74] LOG:  duration: 307.910 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:35.792 UTC [99] LOG:  duration: 263.903 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:35.920 UTC [74] LOG:  duration: 298.476 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:36.455 UTC [74] LOG:  duration: 476.197 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:36.492 UTC [99] LOG:  duration: 473.913 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:36.660 UTC [64] LOG:  duration: 558.739 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:36.697 UTC [98] LOG:  duration: 201.177 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:37.260 UTC [98] LOG:  duration: 438.753 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:37.294 UTC [99] LOG:  duration: 450.939 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:37.501 UTC [74] LOG:  duration: 498.526 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:37.800 UTC [98] LOG:  duration: 305.280 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:38.364 UTC [74] LOG:  duration: 338.475 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:38.622 UTC [99] LOG:  duration: 370.234 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:39.531 UTC [99] LOG:  duration: 325.736 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:39.587 UTC [74] LOG:  duration: 332.722 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:40.561 UTC [74] LOG:  duration: 313.894 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:41.174 UTC [74] LOG:  duration: 413.445 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:41.260 UTC [64] LOG:  duration: 338.074 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:41.387 UTC [98] LOG:  duration: 516.151 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:41.814 UTC [99] LOG:  duration: 310.710 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:41.994 UTC [74] LOG:  duration: 426.646 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:42.082 UTC [98] LOG:  duration: 273.612 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:42.378 UTC [99] LOG:  duration: 380.212 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:42.613 UTC [98] LOG:  duration: 424.086 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:42.691 UTC [64] LOG:  duration: 418.565 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:43.311 UTC [98] LOG:  duration: 283.726 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:43.551 UTC [64] LOG:  duration: 301.992 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:43.838 UTC [99] LOG:  duration: 343.644 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:44.134 UTC [64] LOG:  duration: 301.537 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:44.322 UTC [99] LOG:  duration: 327.175 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:44.627 UTC [64] LOG:  duration: 309.794 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:44.866 UTC [98] LOG:  duration: 361.606 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:45.308 UTC [64] LOG:  duration: 312.810 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:45.427 UTC [98] LOG:  duration: 306.859 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:46.749 UTC [98] LOG:  duration: 502.594 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:46.797 UTC [64] LOG:  duration: 514.893 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:46.974 UTC [99] LOG:  duration: 602.176 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:47.481 UTC [99] LOG:  duration: 408.575 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:47.563 UTC [64] LOG:  duration: 407.140 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:48.065 UTC [64] LOG:  duration: 315.311 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:48.568 UTC [64] LOG:  duration: 317.655 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:48.683 UTC [98] LOG:  duration: 311.401 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:49.162 UTC [98] LOG:  duration: 299.860 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:49.693 UTC [98] LOG:  duration: 349.467 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:49.794 UTC [99] LOG:  duration: 364.816 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:50.662 UTC [99] LOG:  duration: 293.466 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:50.727 UTC [74] LOG:  duration: 295.314 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:51.292 UTC [99] LOG:  duration: 448.786 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:51.404 UTC [74] LOG:  duration: 283.921 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:51.515 UTC [64] LOG:  duration: 518.136 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:51.957 UTC [99] LOG:  duration: 426.445 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:52.045 UTC [74] LOG:  duration: 464.964 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:52.408 UTC [98] LOG:  duration: 398.648 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:52.450 UTC [74] LOG:  duration: 228.297 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:52.966 UTC [98] LOG:  duration: 347.169 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:52.991 UTC [99] LOG:  duration: 302.404 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:53.185 UTC [74] LOG:  duration: 556.140 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:53.296 UTC [64] LOG:  duration: 681.997 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:53.695 UTC [98] LOG:  duration: 690.516 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:53.779 UTC [217] LOG:  duration: 666.600 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:53.968 UTC [74] LOG:  duration: 368.819 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:54.166 UTC [99] LOG:  duration: 420.397 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:54.189 UTC [64] LOG:  duration: 508.950 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:54.473 UTC [218] LOG:  duration: 601.444 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:54.691 UTC [217] LOG:  duration: 570.614 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:55.147 UTC [99] LOG:  duration: 856.349 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:55.254 UTC [217] LOG:  duration: 306.747 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:55.470 UTC [99] LOG:  duration: 322.150 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:55.769 UTC [64] LOG:  duration: 1347.462 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:55.858 UTC [217] LOG:  duration: 403.938 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:55.968 UTC [229] LOG:  duration: 400.391 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:56.048 UTC [98] LOG:  duration: 1180.232 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:56.252 UTC [64] LOG:  duration: 482.669 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:56.449 UTC [98] LOG:  duration: 399.140 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:56.468 UTC [217] LOG:  duration: 316.509 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:56.568 UTC [229] LOG:  duration: 424.130 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:56.649 UTC [218] LOG:  duration: 1937.419 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:56.859 UTC [74] LOG:  duration: 2078.098 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:57.048 UTC [228] LOG:  duration: 390.437 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:57.068 UTC [229] LOG:  duration: 407.340 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:57.069 UTC [218] LOG:  duration: 418.613 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:57.167 UTC [217] LOG:  duration: 472.833 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:57.350 UTC [74] LOG:  duration: 489.353 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:57.358 UTC [226] LOG:  duration: 2294.327 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:57.454 UTC [218] LOG:  duration: 371.660 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:57.555 UTC [99] LOG:  duration: 1775.911 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:57.654 UTC [217] LOG:  duration: 486.951 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:57.669 UTC [229] LOG:  duration: 424.045 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:57.753 UTC [226] LOG:  duration: 393.983 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:57.851 UTC [98] LOG:  duration: 392.234 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:57.962 UTC [229] LOG:  duration: 292.187 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:58.246 UTC [226] LOG:  duration: 464.136 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:58.354 UTC [99] LOG:  duration: 492.639 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:58.460 UTC [64] LOG:  duration: 2113.491 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:58.953 UTC [236] LOG:  duration: 2502.366 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:59.046 UTC [64] LOG:  duration: 585.485 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:59.047 UTC [226] LOG:  duration: 753.204 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:59.063 UTC [229] LOG:  duration: 605.935 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:59.172 UTC [74] LOG:  duration: 620.944 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:59.555 UTC [236] LOG:  duration: 587.683 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:51:59.867 UTC [74] LOG:  duration: 623.141 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:00.064 UTC [228] LOG:  duration: 2871.811 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:00.167 UTC [226] LOG:  duration: 822.982 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:00.353 UTC [236] LOG:  duration: 495.760 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:00.956 UTC [217] LOG:  duration: 3079.293 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:00.966 UTC [218] LOG:  duration: 3181.157 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:00.972 UTC [236] LOG:  duration: 613.658 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:01.051 UTC [98] LOG:  duration: 3179.878 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:01.267 UTC [74] LOG:  duration: 1019.501 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:01.558 UTC [217] LOG:  duration: 600.894 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:01.755 UTC [218] LOG:  duration: 788.085 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:01.755 UTC [98] LOG:  duration: 609.943 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:01.847 UTC [228] LOG:  duration: 1695.588 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:01.860 UTC [99] LOG:  duration: 3488.438 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:01.967 UTC [74] LOG:  duration: 698.729 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:02.160 UTC [217] LOG:  duration: 600.995 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:02.554 UTC [99] LOG:  duration: 687.532 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:02.569 UTC [74] LOG:  duration: 599.945 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:02.669 UTC [217] LOG:  duration: 298.666 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:02.670 UTC [229] LOG:  duration: 3483.551 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:02.762 UTC [64] LOG:  duration: 3575.848 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:03.275 UTC [229] LOG:  duration: 604.288 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:03.372 UTC [64] LOG:  duration: 609.863 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:03.760 UTC [218] LOG:  duration: 1904.745 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:03.866 UTC [228] LOG:  duration: 1908.078 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:03.958 UTC [64] LOG:  duration: 585.873 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:03.958 UTC [229] LOG:  duration: 589.429 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:03.962 UTC [226] LOG:  duration: 3794.904 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:04.556 UTC [226] LOG:  duration: 593.439 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:04.650 UTC [64] LOG:  duration: 691.421 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:04.655 UTC [236] LOG:  duration: 3599.509 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:04.657 UTC [229] LOG:  duration: 696.391 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:05.063 UTC [236] LOG:  duration: 407.139 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:05.266 UTC [99] LOG:  duration: 2710.295 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:05.451 UTC [98] LOG:  duration: 3685.977 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:05.555 UTC [228] LOG:  duration: 1601.780 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:05.767 UTC [74] LOG:  duration: 3198.019 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:05.866 UTC [99] LOG:  duration: 599.766 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:06.049 UTC [217] LOG:  duration: 3379.482 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:06.050 UTC [98] LOG:  duration: 598.097 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:06.064 UTC [228] LOG:  duration: 507.465 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:06.166 UTC [74] LOG:  duration: 397.499 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:06.269 UTC [217] LOG:  duration: 218.498 ms  execute <unnamed>: SELECT name FROM authors WHERE name ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:06.350 UTC [218] LOG:  duration: 2589.906 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:06.391 UTC [64] LOG:  duration: 1545.534 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:06.393 UTC [229] LOG:  duration: 1613.072 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:06.677 UTC [236] LOG:  duration: 1487.300 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:06.876 UTC [217] LOG:  duration: 481.815 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:07.201 UTC [236] LOG:  duration: 326.167 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:07.732 UTC [236] LOG:  duration: 340.181 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 13:52:23.387 UTC [357] LOG:  duration: 473.896 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:52:23.828 UTC [357] LOG:  duration: 439.885 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:52:51.560 UTC [55] LOG:  duration: 214.989 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:52:52.842 UTC [55] LOG:  duration: 508.993 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:52:53.350 UTC [55] LOG:  duration: 506.309 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:52:53.869 UTC [68] LOG:  duration: 531.046 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:52:54.372 UTC [68] LOG:  duration: 501.044 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:52:54.759 UTC [55] LOG:  duration: 431.648 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:52:55.202 UTC [55] LOG:  duration: 442.508 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:52:55.824 UTC [55] LOG:  duration: 496.971 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:52:56.347 UTC [55] LOG:  duration: 521.210 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:52:57.836 UTC [68] LOG:  duration: 500.881 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:52:58.341 UTC [68] LOG:  duration: 504.492 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:52:58.821 UTC [55] LOG:  duration: 492.847 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:52:59.321 UTC [55] LOG:  duration: 499.357 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:52:59.768 UTC [55] LOG:  duration: 440.436 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:00.219 UTC [55] LOG:  duration: 450.322 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:00.818 UTC [55] LOG:  duration: 490.430 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:01.329 UTC [55] LOG:  duration: 510.165 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:01.799 UTC [68] LOG:  duration: 471.555 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:02.299 UTC [68] LOG:  duration: 499.287 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:02.555 UTC [68] LOG:  duration: 227.677 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:02.800 UTC [68] LOG:  duration: 243.869 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:03.806 UTC [68] LOG:  duration: 474.628 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:04.276 UTC [68] LOG:  duration: 468.574 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:04.799 UTC [68] LOG:  duration: 472.239 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:05.274 UTC [68] LOG:  duration: 473.174 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:06.783 UTC [68] LOG:  duration: 447.943 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:07.217 UTC [68] LOG:  duration: 432.723 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:07.764 UTC [68] LOG:  duration: 435.950 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:08.207 UTC [68] LOG:  duration: 442.467 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:08.803 UTC [68] LOG:  duration: 474.403 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:09.291 UTC [68] LOG:  duration: 486.412 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:09.799 UTC [68] LOG:  duration: 472.829 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:10.314 UTC [68] LOG:  duration: 513.242 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:10.776 UTC [68] LOG:  duration: 448.671 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:11.250 UTC [68] LOG:  duration: 472.795 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:11.812 UTC [68] LOG:  duration: 484.942 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:12.327 UTC [68] LOG:  duration: 513.838 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:12.876 UTC [221] LOG:  duration: 538.386 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:13.496 UTC [221] LOG:  duration: 619.011 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:13.898 UTC [68] LOG:  duration: 570.857 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:14.414 UTC [68] LOG:  duration: 513.955 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:14.790 UTC [221] LOG:  duration: 462.493 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:15.259 UTC [221] LOG:  duration: 468.218 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:15.809 UTC [221] LOG:  duration: 481.657 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:16.326 UTC [221] LOG:  duration: 515.567 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:16.778 UTC [68] LOG:  duration: 451.537 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:17.241 UTC [68] LOG:  duration: 461.430 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:17.812 UTC [68] LOG:  duration: 485.342 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:18.301 UTC [68] LOG:  duration: 487.102 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:18.803 UTC [68] LOG:  duration: 475.598 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:19.275 UTC [68] LOG:  duration: 471.025 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:19.818 UTC [68] LOG:  duration: 491.921 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:20.316 UTC [68] LOG:  duration: 496.683 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:20.811 UTC [68] LOG:  duration: 485.159 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:21.379 UTC [68] LOG:  duration: 566.521 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:22.851 UTC [221] LOG:  duration: 518.850 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:23.339 UTC [221] LOG:  duration: 486.405 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:23.762 UTC [68] LOG:  duration: 433.573 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:24.208 UTC [68] LOG:  duration: 444.466 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:24.780 UTC [68] LOG:  duration: 452.453 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:25.239 UTC [68] LOG:  duration: 457.325 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:25.792 UTC [68] LOG:  duration: 463.984 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:26.268 UTC [68] LOG:  duration: 474.666 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:35.331 UTC [64] LOG:  duration: 507.597 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:35.840 UTC [64] LOG:  duration: 507.805 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:36.362 UTC [77] LOG:  duration: 531.819 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:36.876 UTC [77] LOG:  duration: 512.879 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:37.271 UTC [64] LOG:  duration: 452.008 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:37.738 UTC [64] LOG:  duration: 466.446 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:38.314 UTC [64] LOG:  duration: 495.982 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:38.859 UTC [64] LOG:  duration: 543.708 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:39.084 UTC [106] LOG:  duration: 253.293 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:39.289 UTC [106] LOG:  duration: 203.312 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:39.418 UTC [77] LOG:  duration: 598.312 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:39.946 UTC [77] LOG:  duration: 526.585 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:40.376 UTC [106] LOG:  duration: 556.913 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:40.902 UTC [106] LOG:  duration: 523.911 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:41.370 UTC [77] LOG:  duration: 549.612 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:41.927 UTC [77] LOG:  duration: 554.328 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:42.277 UTC [106] LOG:  duration: 457.047 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:42.743 UTC [106] LOG:  duration: 464.013 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:43.317 UTC [106] LOG:  duration: 497.955 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:43.845 UTC [106] LOG:  duration: 526.748 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:44.510 UTC [77] LOG:  duration: 691.399 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:45.274 UTC [106] LOG:  duration: 388.680 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:45.347 UTC [77] LOG:  duration: 833.599 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:45.650 UTC [106] LOG:  duration: 374.072 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:46.687 UTC [106] LOG:  duration: 867.457 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:47.396 UTC [106] LOG:  duration: 707.318 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:47.489 UTC [77] LOG:  duration: 668.099 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:48.045 UTC [77] LOG:  duration: 554.760 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:48.069 UTC [106] LOG:  duration: 249.810 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:48.287 UTC [106] LOG:  duration: 216.085 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:49.281 UTC [106] LOG:  duration: 459.064 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:49.735 UTC [106] LOG:  duration: 452.589 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:50.284 UTC [106] LOG:  duration: 465.031 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:50.736 UTC [106] LOG:  duration: 450.658 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:51.304 UTC [106] LOG:  duration: 484.038 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:51.802 UTC [106] LOG:  duration: 495.956 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:52.303 UTC [106] LOG:  duration: 484.643 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:52.813 UTC [106] LOG:  duration: 508.233 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:53.276 UTC [106] LOG:  duration: 457.516 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:53.764 UTC [106] LOG:  duration: 487.609 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:54.318 UTC [106] LOG:  duration: 499.570 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:54.848 UTC [106] LOG:  duration: 529.061 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:55.324 UTC [77] LOG:  duration: 505.269 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:55.931 UTC [77] LOG:  duration: 606.038 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:56.350 UTC [106] LOG:  duration: 529.398 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:56.857 UTC [106] LOG:  duration: 506.310 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:57.289 UTC [77] LOG:  duration: 470.020 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:57.756 UTC [77] LOG:  duration: 465.382 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:58.310 UTC [77] LOG:  duration: 490.873 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:58.824 UTC [77] LOG:  duration: 513.169 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:53:59.274 UTC [106] LOG:  duration: 455.635 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:53:59.735 UTC [106] LOG:  duration: 460.332 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:54:00.321 UTC [106] LOG:  duration: 502.287 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:54:00.817 UTC [106] LOG:  duration: 495.569 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:54:01.302 UTC [77] LOG:  duration: 483.165 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:54:01.789 UTC [77] LOG:  duration: 485.755 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:54:02.320 UTC [77] LOG:  duration: 501.108 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:54:02.828 UTC [77] LOG:  duration: 507.080 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:54:03.315 UTC [106] LOG:  duration: 496.306 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:54:03.836 UTC [106] LOG:  duration: 519.764 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:54:05.331 UTC [77] LOG:  duration: 506.930 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:54:05.821 UTC [77] LOG:  duration: 489.285 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:54:06.267 UTC [106] LOG:  duration: 448.637 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:54:06.722 UTC [106] LOG:  duration: 453.361 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:54:07.286 UTC [106] LOG:  duration: 465.669 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:54:07.752 UTC [106] LOG:  duration: 464.788 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+db-1  | 2026-11-04 13:54:08.290 UTC [106] LOG:  duration: 470.836 ms  execute <unnamed>: SELECT COUNT(*) AS count FROM books b WHERE (b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 13:54:08.769 UTC [106] LOG:  duration: 477.210 ms  execute <unnamed>: SELECT b.id, b.title, b.subtitle, b.publisher, b.year

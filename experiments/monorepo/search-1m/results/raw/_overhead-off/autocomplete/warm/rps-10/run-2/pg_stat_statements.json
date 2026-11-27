@@ -1,0 +1,2 @@
+[{"query":"SELECT title FROM books WHERE title ILIKE $1 LIMIT $2","calls":310,"total_ms":56432.8,"mean_ms":182.04,"rows":2272,"shared_blks_read":2120672,"shared_blks_hit":1104180}, 
+ {"query":"SELECT name FROM authors WHERE name ILIKE $1 LIMIT $2","calls":310,"total_ms":17584.4,"mean_ms":56.72,"rows":1700,"shared_blks_read":0,"shared_blks_hit":378531}]

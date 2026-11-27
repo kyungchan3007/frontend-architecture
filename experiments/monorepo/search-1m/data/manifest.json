@@ -1,0 +1,11 @@
+{
+ "source": "국립중앙도서관 LOD Offline_json_20261008",
+ "license": "공공누리 제1유형, CC0 1.0",
+ "filter": "typeOfData=dt_gm, language=kor, 제목에 한글 포함",
+ "seed": "book-search-bench-v1",
+ "records_read": 7237338,
+ "parse_failures": 0,
+ "population": 2138277,
+ "written": 1000000,
+ "failure_samples": []
+}

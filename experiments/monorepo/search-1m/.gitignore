@@ -1,0 +1,5 @@
+data/*.jsonl
+data/generated/
+node_modules/
+.next/
+.DS_Store

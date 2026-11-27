@@ -1,0 +1,8 @@
+{
+  "name": "book-search-bench-tools",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "playwright": "1.54.2"
+  }
+}

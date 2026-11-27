@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; color: #1a1a1a; background: #fafafa; line-height: 1.5; }
+main { max-width: 480px; margin: 0 auto; padding: 16px; }
+a { color: inherit; text-decoration: none; }
+h1 { font-size: 22px; margin: 8px 0 16px; }
+h2 { font-size: 17px; margin: 24px 0 8px; }
+input[type="search"], input[type="text"] { width: 100%; padding: 12px 14px; font-size: 16px; border: 1px solid #ccc; border-radius: 8px; background: #fff; }
+ul { list-style: none; margin: 0; padding: 0; }
+.ac { margin-top: 4px; background: #fff; border: 1px solid #e2e2e2; border-radius: 8px; }
+.ac li a { display: block; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; }
+.ac .tag { font-size: 12px; color: #777; margin-right: 8px; }
+.row { display: flex; gap: 12px; padding: 12px 0; border-bottom: 1px solid #eee; }
+.row img, .cover { width: 72px; height: 100px; object-fit: cover; background: #ddd; border-radius: 4px; flex: none; }
+.meta { font-size: 13px; color: #666; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+.chip { padding: 4px 10px; border: 1px solid #ccc; border-radius: 14px; font-size: 13px; background: #fff; }
+.chip.on { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
+.pager { display: flex; justify-content: space-between; padding: 16px 0; }
+.big { width: 160px; height: 224px; display: block; margin: 8px 0 12px; border-radius: 6px; }
+.review { padding: 10px 0; border-bottom: 1px solid #eee; font-size: 14px; }
+.recs { display: flex; gap: 10px; overflow-x: auto; }
+.recs a { width: 96px; flex: none; font-size: 12px; }
+.recs img { width: 96px; height: 134px; object-fit: cover; border-radius: 4px; }
+pre { white-space: pre-wrap; font-family: inherit; margin: 0; font-size: 14px; }
