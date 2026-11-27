@@ -57,21 +57,27 @@ export async function searchBooks(params: SearchParams): Promise<SearchResult> {
   const prefix = escapeLike(q) + "%";
   const kdc = params.kdc && /^\d$/.test(params.kdc) ? params.kdc : null;
 
-  const where: string[] = [
-    `(b.title ILIKE $1 OR EXISTS (
-       SELECT 1 FROM book_authors ba JOIN authors a ON a.id = ba.author_id
-       WHERE ba.book_id = b.id AND a.name ILIKE $1))`,
-  ];
-  const values: unknown[] = [contains];
+  // pg_trgm은 1~2글자 검색에 인덱스를 쓰지 못하므로 글자 조각 인덱스로 나눈다.
+  const useGrams = [...q].length <= 2;
+  const titleCond = useGrams ? "text_grams(b.title) @> ARRAY[lower($1::text)]" : "b.title ILIKE $1";
+  const authorCond = useGrams ? "text_grams(a.name) @> ARRAY[lower($1::text)]" : "a.name ILIKE $1";
+  const matchedSql = `SELECT b.id FROM books b WHERE ${titleCond}
+     UNION
+     SELECT ba.book_id FROM authors a JOIN book_authors ba ON ba.author_id = a.id WHERE ${authorCond}`;
+
+  const where: string[] = [];
+  const values: unknown[] = [useGrams ? q : contains];
   if (kdc) {
     values.push(kdc + "%");
     where.push(`b.kdc LIKE $${values.length}`);
   }
-  const whereSql = where.join(" AND ");
+  const whereSql = where.length ? `WHERE ${where.join(" AND ")}` : "";
 
   const countRes = await dq<{ count: string }>(
     "COUNT",
-    `SELECT COUNT(*) AS count FROM books b WHERE ${whereSql}`,
+    kdc
+      ? `WITH matched AS (${matchedSql}) SELECT COUNT(*) AS count FROM matched m JOIN books b ON b.id = m.id ${whereSql}`
+      : `WITH matched AS (${matchedSql}) SELECT COUNT(*) AS count FROM matched`,
     values,
   );
   const total = Number(countRes.rows[0].count);
@@ -97,8 +103,9 @@ export async function searchBooks(params: SearchParams): Promise<SearchResult> {
     year: number | null;
   }>(
     "목록",
-    `SELECT b.id, b.title, b.subtitle, b.publisher, b.year
-     FROM books b WHERE ${whereSql}
+    `WITH matched AS (${matchedSql})
+     SELECT b.id, b.title, b.subtitle, b.publisher, b.year
+     FROM matched m JOIN books b ON b.id = m.id ${whereSql}
      ORDER BY ${orderBy}
      LIMIT $${n - 1} OFFSET $${n}`,
     listValues,

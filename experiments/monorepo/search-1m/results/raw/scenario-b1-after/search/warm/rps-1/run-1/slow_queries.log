@@ -1,0 +1,18 @@
+db-1  | 2026-11-04 14:15:48.737 UTC [1065] LOG:  duration: 246285.147 ms  statement: CREATE INDEX IF NOT EXISTS books_title_grams ON books USING gin (text_grams(title));
+db-1  | 2026-11-04 14:16:06.124 UTC [1065] LOG:  duration: 17387.137 ms  statement: CREATE INDEX IF NOT EXISTS authors_name_grams ON authors USING gin (text_grams(name));
+db-1  | 2026-11-04 14:16:22.775 UTC [1065] LOG:  duration: 16650.694 ms  statement: ANALYZE books;
+db-1  | 2026-11-04 14:16:23.977 UTC [1065] LOG:  duration: 1202.447 ms  statement: ANALYZE authors;
+db-1  | 2026-11-04 14:17:08.707 UTC [2483] LOG:  duration: 571.688 ms  execute <unnamed>: SELECT COUNT(*) FROM books b WHERE b.title ILIKE $1 OR EXISTS (
+db-1  | 2026-11-04 14:17:09.207 UTC [2492] LOG:  duration: 318.253 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:17:10.923 UTC [2550] LOG:  duration: 383.611 ms  statement: SELECT id FROM books b WHERE NOT EXISTS (SELECT 1 FROM book_authors WHERE book_id=b.id) ORDER BY popularity DESC LIMIT 1
+db-1  | 2026-11-04 14:17:14.649 UTC [2483] LOG:  duration: 4400.804 ms  execute <unnamed>: SELECT COUNT(*) FROM books b WHERE position(lower($1) in lower(b.title)) > 0 OR EXISTS (
+db-1  | 2026-11-04 14:17:18.483 UTC [2483] LOG:  duration: 3821.531 ms  execute <unnamed>: SELECT COUNT(*) FROM books b WHERE position(lower($1) in lower(b.title)) > 0 OR EXISTS (
+db-1  | 2026-11-04 14:17:22.496 UTC [2483] LOG:  duration: 3983.619 ms  execute <unnamed>: SELECT COUNT(*) FROM books b WHERE position(lower($1) in lower(b.title)) > 0 OR EXISTS (
+db-1  | 2026-11-04 14:17:26.472 UTC [2483] LOG:  duration: 3937.299 ms  execute <unnamed>: SELECT COUNT(*) FROM books b WHERE position(lower($1) in lower(b.title)) > 0 OR EXISTS (
+db-1  | 2026-11-04 14:17:30.486 UTC [2483] LOG:  duration: 3981.770 ms  execute <unnamed>: SELECT COUNT(*) FROM books b WHERE position(lower($1) in lower(b.title)) > 0 OR EXISTS (
+db-1  | 2026-11-04 14:17:30.778 UTC [2492] LOG:  duration: 289.669 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 14:17:31.115 UTC [2492] LOG:  duration: 281.051 ms  execute <unnamed>: SELECT title FROM books WHERE title ILIKE $1 LIMIT 10
+db-1  | 2026-11-04 14:17:31.788 UTC [2483] LOG:  duration: 260.690 ms  statement: SELECT id FROM books b WHERE NOT EXISTS (SELECT 1 FROM book_authors WHERE book_id=b.id) ORDER BY popularity DESC LIMIT 1
+db-1  | 2026-11-04 14:17:32.225 UTC [2483] LOG:  duration: 430.890 ms  statement: SELECT book_id, count(*) c FROM reviews GROUP BY book_id ORDER BY c DESC LIMIT 1
+db-1  | 2026-11-04 14:18:06.733 UTC [129] LOG:  duration: 324.122 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
+db-1  | 2026-11-04 14:18:07.304 UTC [129] LOG:  duration: 570.384 ms  execute <unnamed>: WITH matched AS (SELECT b.id FROM books b WHERE text_grams(b.title) @> ARRAY[lower($1::text)]
